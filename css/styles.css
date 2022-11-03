@@ -1,0 +1,156 @@
+body{
+  font-family:"Montserrat-black";
+}
+#title
+{background-color:#E9967A;
+color:#fff;}
+h1
+{
+  font-family:"Montserrat-black";
+
+  font-weight:bold;
+font-size:3.5rem;
+line-height: 1.5;
+}
+h2
+{
+  font-family:"Montserrat-Bold";
+   font-weight:bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid
+{
+  padding:3% 15% 7%;
+}
+.navbar{
+  padding-bottom:4.5rem;
+}
+/* changing navigation bar styles like all the heading and stuff */
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size:2.5rem;
+  font-weight:bold;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat-light";
+}
+/* giving some perfect place to download buttons */
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 20%;
+  transform:rotate(25deg);
+  position:absolute;
+  right:20%;
+
+}
+/* now i will add padding to the top offeaurets div */
+#features
+{
+padding: 7% 15%;
+background-color:#fff;
+position: relative;
+}
+
+/* i added this class to put all the divs in a row and aligned them in center */
+.features-box{
+  text-align: center;
+padding:5%;
+
+}
+.features-disc
+{
+  font-size:1.5rem;
+  /* font-family:"Montserrat-Bold"; */
+  font-weight:Bold;
+}
+.feat-dis
+{
+  color:#8f8f8f;
+}
+/*  this class is to style the icons */
+.icon-me
+{
+  color:#E9967A;
+  font-size:45px;
+  margin-bottom: 1rem;
+
+}
+.icon-me:hover{color:#ff6347;}
+
+
+/* updating testimonial structure */
+#testimonials
+{
+
+ text-align:center;
+ background-color:#E9967A;
+ color:white;
+}
+.carousel-item
+{padding:7% 15%;}
+/* editing the testimonial dog-image */
+/* border radius will change the image to circle */
+.testimonial-image
+{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+/* i am changing  color of this section because i want it and testimonial section to look like merge */
+#press
+{
+  background-color:#E9967A;
+  text-align:center;
+  padding-bottom: 3%;
+}
+/* press logo and change ther width */
+.press-image
+{
+  width:15%;
+  margin:25px 20px 15px;
+}
+/* //cards */
+#pricing{
+  padding:100px;
+  text-align:center;
+}
+.price-color{
+  padding:3% 2%;
+}
+#cta
+{
+  text-align: center;
+  background-color:#E9967A;
+  color:#fff;
+
+  padding: 7% 15%;
+
+}
+.cta-heading
+{
+  font-family:"Montserrat-black";
+  font-weight:bold;
+font-size:3.5rem;
+line-height: 1.5;
+}
+#footer{
+  padding:7% 15%;
+  text-align:center;
+}
+.opt-class{margin:20px 10px;}
+
+
+@media(max-width:995px)
+{
+  #title{text-align: center;}
+  .title-image{position:static;  width: 45%;transform: rotate(0);}
+}
